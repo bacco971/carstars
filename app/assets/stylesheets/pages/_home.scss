@@ -304,7 +304,7 @@ a:hover {
   line-height: 1.4;
   border-radius: 50%;
   margin-bottom: 20px;
-  margin-top: 29px;
+  margin-top: 49px;
 }
 .circle4 {
   display: inline-block;
@@ -323,13 +323,23 @@ a:hover {
   margin-top: 48px;
 }
 
-.card {
-  height: 175px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  background-size: cover !important;
-  color: white;
-  position: relative;
-  margin: 30px;
+
+  .card {
+    height: 384px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    background-size: cover !important;
+    color: white;
+    position: relative;
+    width: 671px;
+}
+
+.cardchoice {
+    height: 384px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    background-size: cover !important;
+    color: white;
+    position: relative;
+    margin-left: -30px;
 }
 .card-user {
   position: absolute;
@@ -425,6 +435,7 @@ a:hover {
 }
 .card-description h2 {
   font-size: 24px;
+  margin: 40px;
 }
 .card-description p {
   font-size: 13px;
