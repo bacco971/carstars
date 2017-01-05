@@ -189,7 +189,10 @@ a:hover {
 }
 
 
+.colorwhite {
 
+  color: white;
+}
 .form-control {
   color: black;
 }
@@ -252,7 +255,7 @@ a:hover {
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 16px;
-  background-color: #C2413B;
+  background-color: $blue;
   color: white;
   // font-family: $special-font;
   line-height: 1.4;
@@ -269,7 +272,7 @@ a:hover {
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 16px;
-  background-color: #C2413B;
+  background-color: $blue;
   color: white;
   // font-family: $special-font;
   line-height: 1.4;
@@ -285,7 +288,7 @@ a:hover {
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 16px;
-  background-color: #C2413B;
+  background-color: $blue;
   color: white;
   // font-family: $special-font;
   line-height: 1.4;
@@ -301,7 +304,7 @@ a:hover {
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 16px;
-  background-color: #C2413B;
+  background-color: $blue;
   color: white;
   // font-family: $special-font;
   line-height: 1.4;
