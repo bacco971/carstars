@@ -340,7 +340,12 @@ a:hover {
     color: white;
     position: relative;
     margin-left: -30px;
+
 }
+
+.cardchoice:hover {
+  opacity: 0.8;
+  }
 .card-user {
   position: absolute;
   right: 10px;
@@ -400,9 +405,9 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-
-
 }
+
+
 
 .carchoice1 {
   width: 540px;
@@ -434,7 +439,7 @@ a:hover {
   left: 10px;
 }
 .card-description h2 {
-  font-size: 24px;
+  font-size: 30px;
   margin: 40px;
 }
 .card-description p {
@@ -465,7 +470,18 @@ a:hover {
     color: #20356A;
 }
 
+.newStep {
+    display: inline-block;
+    width: 620px;
+    height: 380px;
+    background: url('/assets/merco.png');
+}
 
+.newStep:hover {
+    background: url('/assets/new_step_highlighted.png');
+      opacity: 0.8;
+
+}
 
 
 /* -------------------------------------
